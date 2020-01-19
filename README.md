@@ -9,8 +9,8 @@ It makes use of the new Facebook Instagram Graph API.
 2. Execute `npm install` to install the node dependencies.
 
 ### Configuration
-The entry in `config.js` can include the following options:
-'''
+Example `config.js` entry:
+```
 {
 module: 'MMM-Instagram2020',
 position: 'top_left',
@@ -21,7 +21,7 @@ config: {
   redirect_uri: '<YOUR FACEBOOK INSTAGRAM APP REDIRECT URL', // Facebook Instagram App redirect_uri
   updateInterval: 30000,
 }
-'''
+```
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
