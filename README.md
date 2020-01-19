@@ -2,6 +2,26 @@
 This a module for the [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) for displaying your Instagram photos and comments on your Magic Mirror.
 It makes use of the new Facebook Instagram Graph API.
 
+### Prerequisites
+
+### Installing
+1. Navigate to the `modules` folder and execute `git clone https://github.com/kapsolas/MMM-Instagram.git`. A new folder with the name 'MMM-Instagram2020 will be created, navigate into it.
+2. Execute `npm install` to install the node dependencies.
+
+### Configuration
+The entry in `config.js` can include the following options:
+{
+module: 'MMM-Instagram2020',
+position: 'top_left',
+header: 'MMM-Instagram2020',
+config: {
+  client_id: '<YOUR FACBOOK INSTAGRAM APP ID>', // Facebook Instagram App ID
+  client_secret: '<YOUR FACBOOK INSTAGRAM APP SECRET>', // Facebook Instagram App Secret
+  redirect_uri: '<YOUR FACEBOOK INSTAGRAM APP REDIRECT URL', // Facebook Instagram App redirect_uri
+  updateInterval: 30000,
+}
+
+
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
