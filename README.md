@@ -1,7 +1,7 @@
 # MMM-Instagram2020
-This a module for the MagicMirror. It pulls photos from your own or another users Instagram feed (requires API_KEY). The photos are then rotated and animated in the screen.
+This a module for the [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) for displaying your Instagram Photos and comments. It makes use of the new Facebook Instagram Graph API.
 
-#License
+# License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 # Acknowledgments
