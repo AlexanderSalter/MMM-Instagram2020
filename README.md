@@ -26,6 +26,7 @@ config: {
   client_id: '<YOUR FACBOOK INSTAGRAM APP ID>', // Facebook Instagram App ID
   client_secret: '<YOUR FACBOOK INSTAGRAM APP SECRET>', // Facebook Instagram App Secret
   redirect_uri: '<YOUR FACEBOOK INSTAGRAM APP REDIRECT URL', // Facebook Instagram App redirect_uri
+  animationSpeed: 1000,
   updateInterval: 30000,
 }
 ```
