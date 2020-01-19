@@ -5,7 +5,7 @@ It makes use of the new Facebook Instagram Graph API.
 ### Prerequisites
 
 ### Installing
-1. Navigate to the `modules` folder and execute `git clone https://github.com/kapsolas/MMM-Instagram.git`. A new folder with the name 'MMM-Instagram2020 will be created, navigate into it.
+1. Navigate to the `modules` folder and execute `git clone https://github.com/AlexanderSalter/MMM-Instagram2020.git`. A new folder with the name 'MMM-Instagram2020 will be created, navigate into it.
 2. Execute `npm install` to install the node dependencies.
 
 ### Configuration
