@@ -15,6 +15,7 @@ It makes use of the new Facebook Instagram Graph API.
 |`client_id`|Facebook Instagram App ID required for the Facebook Instagram APP. <br><br>**Type:** `string`<br>This value is **REQUIRED**|
 |`client_secret`|Client Secret required for the Facebook Instagram APP.<br><br>**Type:** `string`<br>This value is **REQUIRED**|
 |`redirect_uri`|OAuth Redirect URIs required for the Facebook Instagram APP.<br><br>**Type:** `string`<br>This value is **REQUIRED**|
+|`animationSpeed`|How long for the animation to last when moving to the next image.<br><br>**Type:** `integer`|
 |`updateInterval`|How long before refreshing image.<br><br>**Type:** `integer`|
 Example `config.js` entry:
 ```
