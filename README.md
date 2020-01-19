@@ -10,6 +10,7 @@ It makes use of the new Facebook Instagram Graph API.
 
 ### Configuration
 The entry in `config.js` can include the following options:
+'''
 {
 module: 'MMM-Instagram2020',
 position: 'top_left',
@@ -20,7 +21,7 @@ config: {
   redirect_uri: '<YOUR FACEBOOK INSTAGRAM APP REDIRECT URL', // Facebook Instagram App redirect_uri
   updateInterval: 30000,
 }
-
+'''
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
