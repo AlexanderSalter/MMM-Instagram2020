@@ -46,11 +46,17 @@ config: {
 2. Ensure the auth_code configuration varibale is set to nothing or ''.
 3. Ensure the `accesstoken.cfg` file does not contain an access token and is completely blank.
 4. Start MagicMirror2 and wait for the authorisation link to show, you will need to either VNC into your MagicMirror2 or access the MagicMirror2 interface remotely 'http://magic_mirror_ip:8080/'
+
 ![Image of Authorisation Process Step 4](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%204.png)
+
 5. Click the Authorise Button and the form will send you to your redirect_uri and give you an auth_code in the url.
+
 ![Image of Authorisation Process Step 5](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%205.png)
+
 6. DONT PANIC! If the url contains a string like ?code=ABCDE...........123SDG0129#_ all is good.
+
 ![Image of Authorisation Process Step 6](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step6.png)
+
 7. Copy the auth_code from the url, removing the "#_" at the end
 ```
 ?code= <<<auth_code>>> #_
