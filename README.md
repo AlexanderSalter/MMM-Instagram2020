@@ -1,5 +1,5 @@
 # MMM-Instagram2020
-This a module for the [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) for displaying your Instagram photos and comments on your MagicMirror2.
+This is a module for the [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) for displaying your Instagram photos and comments on your MagicMirror2.
 It makes use of the new Facebook Instagram Graph API.
 
 ![Example Module Loading Image](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Example1.png)
@@ -91,4 +91,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [Michael Teeuw](https://github.com/MichMich) for creating the awesome [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) project that made this module possible.
 * [Dimitrios Kapsalis](https://github.com/kapsolas) for creating the original [MMM-Instagram](https://github.com/kapsolas/MMM-Instagram) module that was used as guidance in creating this module.
 * [@bigmanstudios.co.uk](https://www.instagram.com/bigmanstudios.co.uk/) for the 28mm wargaming and hobby content.
-
