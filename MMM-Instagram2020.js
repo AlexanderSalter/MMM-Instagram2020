@@ -48,7 +48,7 @@ Module.register("MMM-Instagram2020",{
 			imageLink.innerHTML = "<img src='" + self.data.path + "ig_placeholder.png' width='100%'>";
 			imageLink.innerHTML += "<p class='light' style='text-align: center;'>Loading Instagram Feed</p>";
 			var now = moment();
-			imageLink.innerHTML += "<p class='light xsmall' style='text-align: center;'>"+now.format('MMMM Do YYYY @ hh:mm')+"</p>";
+			imageLink.innerHTML += "<p class='light xsmall' style='text-align: center;'>"+now.format('MMMM Do YYYY @ HH:mm')+"</p>";
 		}
 		else if(self.stage === "auth_link"){
 			Log.log("Loading Pre Auth Page");
