@@ -78,7 +78,7 @@ module.exports = NodeHelper.create({
                         "type" : media_type,
                         "photolink" : media_url,
 						"caption" : caption,
-						"timestamp" : timestamp.format('MMMM Do YYYY @ hh:mm'),
+						"timestamp" : timestamp.format('MMMM Do YYYY @ HH:mm'),
                     });
 				}
 				console.log(images);
