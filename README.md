@@ -85,6 +85,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [ ] redirect_uri support and instructions as required inbound access from internet.
 - [ ] video support
 - [ ] automated authrisation (not sure if this is possible wiht the new API)
+- [ ] investigate possible use of the `?__a=1`
+- [ ] investigate scraping public profiles to make the process simpler [ref ](https://dev.to/teroauralinna/how-to-fetch-your-public-photos-from-instagram-without-the-api-3m50)
 
 
 # Acknowledgments
