@@ -78,6 +78,14 @@ If the access token gets to old, just repeat the authorisation process.
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+# To Do
+* Tidy up the code 
+* Comment the code more clearly
+* redirect_uri support and instructions as required inbound access from internet.
+* video support
+* automated authrisation (not sure if this is possible wiht the new API)
+
+
 # Acknowledgments
 [Michael Teeuw](https://github.com/MichMich) for creating the awesome [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) project that made this module possible.
 [Dimitrios Kapsalis](https://github.com/kapsolas) for creating the original [MMM-Instagram](https://github.com/kapsolas/MMM-Instagram) module that was used as guidance in creating this module.
