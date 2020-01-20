@@ -1,5 +1,9 @@
 # MMM-Instagram2020
-This a module for the [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) for displaying your Instagram photos and comments on your MagicMirror2. It makes use of the new Facebook Instagram Graph API.
+This a module for the [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) for displaying your Instagram photos and comments on your MagicMirror2.
+It makes use of the new Facebook Instagram Graph API.
+
+![Example Module Loading Image](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Example1.png)
+![Example Module Image](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Example2.png)
 
 ### Prerequisites
 This module requires a Facebook Developer App in "Development" mode.
