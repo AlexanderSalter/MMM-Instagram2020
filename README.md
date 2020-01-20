@@ -16,8 +16,8 @@ From the app settings you will need:
 ### Installing
 1. Navigate to the `modules` folder and execute `git clone https://github.com/AlexanderSalter/MMM-Instagram2020.git`. A new folder with the name 'MMM-Instagram2020 will be created, navigate into it.
 2. Execute `npm install` to install the node dependencies.
-3. Confiugre as per below
-4. Follow the Authorisation Process
+3. Confiugre as per below.
+4. Follow the Authorisation Process.
 
 ### Configuration
 
@@ -90,4 +90,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 # Acknowledgments
 [Michael Teeuw](https://github.com/MichMich) for creating the awesome [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) project that made this module possible.
 [Dimitrios Kapsalis](https://github.com/kapsolas) for creating the original [MMM-Instagram](https://github.com/kapsolas/MMM-Instagram) module that was used as guidance in creating this module.
+[@bigmanstudios.co.uk](https://www.instagram.com/bigmanstudios.co.uk/) for the OG 28mm content.
 
