@@ -64,11 +64,12 @@ config: {
 8. Add the auth_code to your config.js file.
 9. Restart MagicMirror2 and enjoy your instagram feed.
 
+![Image of Module after Authorisation Process is complete](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Example.png)
+
 Note: The authorisation process uses a key stored in `accesstoken.cfg` under the module directory.
 This allows access to the account for 60 days.
 There is a mechanism in place to renew the key every time MagicMirror2 is restarted.
 If the access token gets to old, just repeat the authorisation process.
-
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
