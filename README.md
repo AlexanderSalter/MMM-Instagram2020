@@ -79,11 +79,12 @@ If the access token gets to old, just repeat the authorisation process.
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 # To Do
-* Tidy up the code 
-* Comment the code more clearly
-* redirect_uri support and instructions as required inbound access from internet.
-* video support
-* automated authrisation (not sure if this is possible wiht the new API)
+- [ ] Tidy up the code 
+- [ ] Comment the code more clearly
+- [ ] Add display config options to hide comments and time
+- [ ] redirect_uri support and instructions as required inbound access from internet.
+- [ ] video support
+- [ ] automated authrisation (not sure if this is possible wiht the new API)
 
 
 # Acknowledgments
