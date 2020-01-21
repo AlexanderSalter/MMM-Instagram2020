@@ -82,9 +82,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [ ] Tidy up the code 
 - [ ] Comment the code more clearly
 - [ ] Add display config options to hide comments and time
-- [ ] redirect_uri support and instructions as required inbound access from internet.
+- [ ] redirect_uri support and instructions, required inbound access from internet to communicate
 - [ ] video support
-- [ ] automated authrisation (not sure if this is possible wiht the new API)
+- [ ] automated authrisation (not sure if this is possible with the new API)
 - [ ] investigate possible use of the `?__a=1`
 - [ ] investigate scraping public profiles to make the process simpler [ref ](https://dev.to/teroauralinna/how-to-fetch-your-public-photos-from-instagram-without-the-api-3m50)
 
