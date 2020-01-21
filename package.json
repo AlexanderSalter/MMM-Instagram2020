@@ -23,6 +23,6 @@
   "dependencies": {
     "request": "latest",
     "fs": "latest",
-    "moment": "latest",
+    "moment": "latest"
     }
 }
