@@ -7,7 +7,10 @@ It makes use of the new Facebook Instagram Graph API.
 
 ### Prerequisites
 This module requires a Facebook Developer App in "Development" mode. 
-[This Getting Started guide](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) from Facebook will show you how to setup the App for instagram access, Just follow steps 1,2 and 3 to get going.
+[This Getting Started guide](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) from Facebook will show you how to setup the App for instagram access.
+```diff
+-Just follow steps 1,2 and 3 to get the variables your need.
+```
 From the app settings you will need:
 1. client_id
 2. client_secret
