@@ -1,0 +1,28 @@
+{
+  "name": "MMM-Instagram2020",
+  "version": "1.0.0",
+  "description": "Magic Mirror Module for displaying your Instagram Posts on Magic Mirror",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderSalter/MMM-Instagram2020"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "instagram",
+	"entertainment",
+    "module"
+  ],
+  "author": "Alexander Salter",
+  "contributors": "https://github.com/AlexanderSalter/MMM-Instagram2020/graphs/contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderSalter/MMM-Instagram2020/issues"
+  },
+  "homepage": "https://github.com/AlexanderSalter/MMM-Instagram2020#readme",
+  "dependencies": {
+    "request": "latest",
+    "fs": "latest",
+    "moment": "latest",
+    }
+}
