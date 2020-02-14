@@ -54,7 +54,9 @@ config: {
 3. Ensure the `accesstoken.cfg` file does not contain an access token and is completely blank.
 4. Start MagicMirror2 and wait for the authorisation link to show, you will need to either VNC into your MagicMirror2 or access the MagicMirror2 interface remotely 'http://magic_mirror_ip:8080/'
 5. Look for the Message defined below and click the "Here" link
+
 ![Image of Authorisation Process Step 4](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%204.png)
+
 ```diff
 - Note: The mouse pointer may be hidden, just right-click to locate your pointer.
 ```
