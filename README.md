@@ -12,11 +12,11 @@ This module requires a Facebook Developer App in "Development" mode.
 - Just follow steps 1, 2 and 3 to get the variables you need.
 ```
 ```diff
-+Note: For the Callback URL's required, namely:
-"Valid OAuth Redirect URIs"
-"Deauthorize Callback URL"
-"Data Deletion Request Callback URL"
-you can just use: https://localhost/
++ Note: For the Callback URL's required, namely:
++ "Valid OAuth Redirect URIs"
++ "Deauthorize Callback URL"
++ "Data Deletion Request Callback URL"
++ You can just use: https://localhost/
 ```
 From the app settings you will need:
 1. client_id
