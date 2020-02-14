@@ -45,7 +45,7 @@ config: {
   auth_code: '', // Temporary authorisation code as part of the Facebook Instagram Authorisation Process
   animationSpeed: 1000,
   updateInterval: 30000,
-}
+}}
 ```
 
 ### Authorisation Process
