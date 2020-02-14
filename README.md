@@ -11,6 +11,9 @@ This module requires a Facebook Developer App in "Development" mode.
 ```diff
 - Just follow steps 1, 2 and 3 to get the variables you need.
 ```
+```diff
+Note: For the Callback URL's required, namely "Valid OAuth Redirect URIs", "Deauthorize Callback URL" and "Data Deletion Request Callback URL" you can just use: https://localhost/
+```
 From the app settings you will need:
 1. client_id
 2. client_secret
@@ -58,7 +61,7 @@ config: {
 ![Image of Authorisation Process Step 4](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%204.png)
 
 ```diff
-- Note: The mouse pointer may be hidden, just right-click to locate your pointer.
+Note: The mouse pointer may be hidden, just right-click to locate your pointer.
 ```
 
 6. Click the Authorise Button and the form will send you to your redirect_uri and give you an auth_code in the url.
