@@ -44,9 +44,9 @@ nano config.js
 
 Update the following:
 ```
-+ useHttps: true,                                                         // Support HTTPS or not, default "false" will use HTTP
-+ httpsPrivateKey: "/home/pi/MagicMirror/config/ssl/magicmirror.key",     // HTTPS private key path, only require when useHttps is true
-+ httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS Certificate path, only require when useHttps is true
+useHttps: true,                                                         // Support HTTPS or not, default "false" will use HTTP
+httpsPrivateKey: "/home/pi/MagicMirror/config/ssl/magicmirror.key",     // HTTPS private key path, only require when useHttps is true
+httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS Certificate path, only require when useHttps is true
 ```
   
 ### Install MMM-Instagram2020
