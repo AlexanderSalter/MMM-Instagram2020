@@ -44,9 +44,9 @@ nano config.js
 
 Update the following:
 ```
-useHttps: true,                 // Support HTTPS or not, default "false" will use HTTP
-httpsPrivateKey: "/home/pi/MagicMirror/config/ssl/magicmirror.key",     // HTTPS private key path, only require when useHttps is true
-httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS Certificate path, only require when useHttps is true
++useHttps: true,                                                         // Support HTTPS or not, default "false" will use HTTP
++httpsPrivateKey: "/home/pi/MagicMirror/config/ssl/magicmirror.key",     // HTTPS private key path, only require when useHttps is true
++httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS Certificate path, only require when useHttps is true
 ```
   
 ### Install MMM-Instagram2020
@@ -61,7 +61,7 @@ httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS
 |---|---|
 |`client_id`|Facebook Instagram App ID required for the Facebook Instagram APP. <br><br>**Type:** `string`<br>This value is **REQUIRED**|
 |`client_secret`|Client Secret required for the Facebook Instagram APP.<br><br>**Type:** `string`<br>This value is **REQUIRED**|
-|`redirect_uri`|OAuth Redirect URIs required for the Facebook Instagram APP. This should be set to https://<<IP Of Your Magic Mirror>>:8080/MMM-Instagram2020/auth<br><br>**Type:** `string`<br>This value is **REQUIRED**|
+|`redirect_uri`|Valid OAuth Redirect URI required for the Facebook Instagram APP.<BR><BR>This should be set to https://<<IP Of Your Magic Mirror>>:8080/MMM-Instagram2020/auth<br><br>**Type:** `string`<br>This value is **REQUIRED** and neets HTTPS to be active on your Magic Mirror Installation|
 |`animationSpeed`|How long for the animation to last when moving to the next image.<br><br>**Type:** `integer`|
 |`updateInterval`|How long before refreshing image.<br><br>**Type:** `integer`|
 Example `config.js` entry:
@@ -73,7 +73,7 @@ header: 'MMM-Instagram2020',
 config: {
   client_id: '<YOUR FACBOOK INSTAGRAM APP ID>', // Facebook Instagram App ID
   client_secret: '<YOUR FACBOOK INSTAGRAM APP SECRET>', // Facebook Instagram App Secret
-  redirect_uri: '<YOUR FACEBOOK INSTAGRAM APP REDIRECT URL', // Facebook Instagram App redirect_uri
+  redirect_uri: '<YOUR FACEBOOK INSTAGRAM APP OAUTH REDIRECT URL', // Facebook Instagram App oauth_redirect_uri
   animationSpeed: 1000,
   updateInterval: 30000,
 }}
