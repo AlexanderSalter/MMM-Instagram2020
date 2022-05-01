@@ -46,12 +46,12 @@ From the app settings you will need:
 2. client_secret > This will be a secret generated for you
 3. redirect_uri > This should be set to "https://<<IP Of Your Magic Mirror>>:8080/MMM-Instagram2020/auth" (Same as the Valid OAuth Redirect URI)
   
-
 ## Installing
-1. Navigate to the `modules` folder and execute `git clone https://github.com/AlexanderSalter/MMM-Instagram2020.git`. A new folder with the name 'MMM-Instagram2020 will be created, navigate into it.
-2. Execute `npm install` to install the node dependencies.
-3. Confiugre as per below.
-4. Follow the Authorisation Process.
+1. Setup Magic Mirror for HTTPS/SSL access.
+2. Navigate to the `modules` folder and execute `git clone https://github.com/AlexanderSalter/MMM-Instagram2020.git`. A new folder with the name 'MMM-Instagram2020 will be created, navigate into it.
+3. Execute `npm install` to install the node dependencies.
+4. Confiugre as per below.
+5. Follow the Authorisation Process.
 
 ## Configuration
 
