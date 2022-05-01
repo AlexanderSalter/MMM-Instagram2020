@@ -18,9 +18,9 @@ Just follow steps 1, 2 and 3 to get the variables you need.
 - Data Deletion Requests URL would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/datadelete"
 
 From the app settings you will need:
-1. client_id > This will be a number generated for you
-2. client_secret > This will be a secret generated for you
-3. redirect_uri > This should be set to "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/auth" (Same as the Valid OAuth Redirect URI)
+- client_id > This will be a number generated for you
+- client_secret > This will be a secret generated for you
+- redirect_uri > This should be set to "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/auth" (Same as the Valid OAuth Redirect URI)
   
 ## Installation
 ### Setup Magic Mirror for HTTPS/SSL access.
