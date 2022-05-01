@@ -22,7 +22,7 @@ From the app settings you will need:
 2. client_secret > This will be a secret generated for you
 3. redirect_uri > This should be set to "https://<<IP Of Your Magic Mirror>>:8080/MMM-Instagram2020/auth" (Same as the Valid OAuth Redirect URI)
   
-## Installing
+## Installation
 ### Setup Magic Mirror for HTTPS/SSL access.
 
 Install openssl:
@@ -61,8 +61,7 @@ httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS
 |---|---|
 |`client_id`|Facebook Instagram App ID required for the Facebook Instagram APP. <br><br>**Type:** `string`<br>This value is **REQUIRED**|
 |`client_secret`|Client Secret required for the Facebook Instagram APP.<br><br>**Type:** `string`<br>This value is **REQUIRED**|
-|`redirect_uri`|OAuth Redirect URIs required for the Facebook Instagram APP.<br><br>**Type:** `string`<br>This value is **REQUIRED**|
-|`auth_code`|Used to input a temporary authorisation code as part of the authorisation process<br><br>**Type:** `string`|
+|`redirect_uri`|OAuth Redirect URIs required for the Facebook Instagram APP. This should be set to https://<<IP Of Your Magic Mirror>>:8080/MMM-Instagram2020/auth<br><br>**Type:** `string`<br>This value is **REQUIRED**|
 |`animationSpeed`|How long for the animation to last when moving to the next image.<br><br>**Type:** `integer`|
 |`updateInterval`|How long before refreshing image.<br><br>**Type:** `integer`|
 Example `config.js` entry:
