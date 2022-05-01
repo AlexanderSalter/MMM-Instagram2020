@@ -5,9 +5,9 @@ It makes use of the new Facebook Instagram Graph API.
 ![Example Module Loading Image](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Example1.png)
 ![Example Module Image](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Example2.png)
 
-### Prerequisites
+## Prerequisites
 
-A) This module requires that Magic Mirror is setup for https/ssl access instead of the default http.
+###A) This module requires that Magic Mirror is setup for https/ssl access instead of the default http.
 
 Install openssl:
 ```
@@ -33,7 +33,7 @@ httpsPrivateKey: "/home/pi/MagicMirror/config/ssl/magicmirror.key",     // HTTPS
 httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS Certificate path, only require when useHttps is true
 ```
 
-B) This module requires a Facebook Developer App in "Development" mode. 
+###B) This module requires a Facebook Developer App in "Development" mode. 
 
 [This Getting Started guide](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) from Facebook will show you how to setup the App for instagram access.
 Just follow steps 1, 2 and 3 to get the variables you need.
@@ -73,13 +73,12 @@ config: {
   client_id: '<YOUR FACBOOK INSTAGRAM APP ID>', // Facebook Instagram App ID
   client_secret: '<YOUR FACBOOK INSTAGRAM APP SECRET>', // Facebook Instagram App Secret
   redirect_uri: '<YOUR FACEBOOK INSTAGRAM APP REDIRECT URL', // Facebook Instagram App redirect_uri
-  auth_code: '', // Temporary authorisation code as part of the Facebook Instagram Authorisation Process
   animationSpeed: 1000,
   updateInterval: 30000,
 }}
 ```
 
-### Authorisation Process
+## Authorisation Process
 1. Ensure that client_id, client_secret and redirect_uri are all configured in config.js and that they match your settings in the Facebook Develloper App.
 2. Ensure the auth_code configuration varibale is set to nothing or ''.
 3. Ensure the `accesstoken.cfg` file does not contain an access token and is completely blank.
