@@ -7,7 +7,7 @@ It makes use of the new Facebook Instagram Graph API.
 
 ## Prerequisites
 
-###A) This module requires that Magic Mirror is setup for https/ssl access instead of the default http.
+### A) This module requires that Magic Mirror is setup for https/ssl access instead of the default http.
 
 Install openssl:
 ```
@@ -33,7 +33,7 @@ httpsPrivateKey: "/home/pi/MagicMirror/config/ssl/magicmirror.key",     // HTTPS
 httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS Certificate path, only require when useHttps is true
 ```
 
-###B) This module requires a Facebook Developer App in "Development" mode. 
+### B) This module requires a Facebook Developer App in "Development" mode. 
 
 [This Getting Started guide](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) from Facebook will show you how to setup the App for instagram access.
 Just follow steps 1, 2 and 3 to get the variables you need.
@@ -47,13 +47,13 @@ From the app settings you will need:
 3. redirect_uri > This should be set to "https://<<IP Of Your Magic Mirror>>:8080/MMM-Instagram2020/auth" (Same as the Valid OAuth Redirect URI)
   
 
-### Installing
+## Installing
 1. Navigate to the `modules` folder and execute `git clone https://github.com/AlexanderSalter/MMM-Instagram2020.git`. A new folder with the name 'MMM-Instagram2020 will be created, navigate into it.
 2. Execute `npm install` to install the node dependencies.
 3. Confiugre as per below.
 4. Follow the Authorisation Process.
 
-### Configuration
+## Configuration
 
 |Option|Description|
 |---|---|
