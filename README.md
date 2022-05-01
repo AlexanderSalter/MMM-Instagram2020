@@ -105,7 +105,8 @@ config: {
 Note: The authorisation process uses a key stored in `accesstoken.cfg` under the module directory.
 This allows access to the account for 60 days.
 There is a mechanism in place to renew the key every time MagicMirror2 is restarted.
-If the access token gets to old, the interface will return to the Auth link state.
+If the access token gets to old, the interface will return to the authorisation link state.
+    
 ![Image of Authorisation Process Step 4](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%204.png)
 
 # License
@@ -115,12 +116,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [ ] Tidy up the code 
 - [ ] Comment the code more clearly
 - [ ] Add display config options to hide comments and time
-- [ ] redirect_uri support and instructions, required inbound access from internet to communicate
 - [ ] video support
-- [ ] automated authrisation (not sure if this is possible with the new API)
 - [ ] investigate possible use of the `?__a=1`
 - [ ] investigate scraping public profiles to make the process simpler [ref ](https://dev.to/teroauralinna/how-to-fetch-your-public-photos-from-instagram-without-the-api-3m50)
-
 
 # Acknowledgments
 * [Michael Teeuw](https://github.com/MichMich) for creating the awesome [MagicMirror2](https://github.com/MichMich/MagicMirror/tree/develop) project that made this module possible.
