@@ -6,6 +6,10 @@ It makes use of the new Facebook Instagram Graph API.
 ![Example Module Image](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Example2.png)
 
 ### Prerequisites
+
+This module requires that Magic Mirror is setup for https/ssl access instead of the default http.
+
+
 This module requires a Facebook Developer App in "Development" mode. 
 [This Getting Started guide](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) from Facebook will show you how to setup the App for instagram access.
 ```diff
