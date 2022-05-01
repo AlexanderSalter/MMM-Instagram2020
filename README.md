@@ -95,16 +95,10 @@ config: {
 
 ![Image of Authorisation Process Step 5](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%205.png)
 
-6. If all is good, youll get a message 
+6. If all is good, youll get a message with an auth_code, jsut close the window.
 
-![Image of Authorisation Process Step 6](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step6.png)
+![Image of Authorisation Process Step 6](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step6v2.png)
 
-7. Copy the auth_code from the url, removing the "#_" at the end
-```
-?code= <<<auth_code>>> #_
-```
-8. Add the auth_code to your config.js file.
-9. Restart MagicMirror2 and enjoy your instagram feed.
 
 ![Image of Module after Authorisation Process is complete](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Example.png)
 
