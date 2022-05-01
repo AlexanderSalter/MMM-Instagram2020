@@ -9,24 +9,28 @@ It makes use of the new Facebook Instagram Graph API.
 
 This module requires that Magic Mirror is setup for https/ssl access instead of the default http.
 Install openssl:
-
-`sudo apt-get install openssl`
+```
+sudo apt-get install openssl
+```
 
 Create Certs:
-
-`cd ~/MagicMirror/config
+```
+cd ~/MagicMirror/config
 mkdir ssl
-openssl req -new -x509 -days 365 -nodes -out ./ssl/magicmirror.pem -keyout ./ssl/magicmirror.key`
+openssl req -new -x509 -days 365 -nodes -out ./ssl/magicmirror.pem -keyout ./ssl/magicmirror.key
+```
 
 Update Config File:
-
-`nano config.js`
+```
+nano config.js
+```
 
 Update the following:
-
-`useHttps: true,                 // Support HTTPS or not, default "false" will use HTTP
+```
+useHttps: true,                 // Support HTTPS or not, default "false" will use HTTP
 httpsPrivateKey: "/home/pi/MagicMirror/config/ssl/magicmirror.key",     // HTTPS private key path, only require when useHttps is true
-httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS Certificate path, only require when useHttps is true`
+httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS Certificate path, only require when useHttps is true
+```
 
 This module requires a Facebook Developer App in "Development" mode. 
 [This Getting Started guide](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) from Facebook will show you how to setup the App for instagram access.
