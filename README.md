@@ -13,12 +13,9 @@ It makes use of the new Facebook Instagram Graph API.
 
 [This Getting Started guide](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) from Facebook will show you how to setup the App for instagram access.
 Just follow steps 1, 2 and 3 to get the variables you need.
-
-Valid OAuth Redirect URI would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/auth"
-
-Deauthorize Callback URL would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/deauth"
-
-Data Deletion Requests URL would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/datadelete"
+- Valid OAuth Redirect URI would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/auth"
+- Deauthorize Callback URL would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/deauth"
+- Data Deletion Requests URL would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/datadelete"
 
 From the app settings you will need:
 1. client_id > This will be a number generated for you
