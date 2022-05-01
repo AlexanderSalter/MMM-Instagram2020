@@ -76,14 +76,22 @@ Module.register("MMM-Instagram2020",{
 		self.sendSocketNotification("INSTAGRAM_AUTH", null);
 	},
 	scheduleUpdateInterval: function() {
-	        var self = this;
-        	Log.info(self.name + ': Scheduled update interval set up to' + self.config.animationSpeed);
+	        var self = this
 	        self.updateDom(self.config.animationSpeed);
-		setInterval(function() {
-			Log.info(self.name + ': incrementing the activeItem and refreshing');
-			self.activeItem++;
-			self.updateDom(self.config.animationSpeed);
+		if( self.imageUpdateInterval ){
+			Log.info(self.name + ': Clear previous interval');
+			clearInterval(self.imageUpdateInterval);
+		};
+		Log.info(self.name + ': Scheduled update interval set up to ' + self.config.updateInterval + 'ms');
+		self.imageUpdateInterval =setInterval(function() {
+			self.updateImages();
 	        }, this.config.updateInterval);
+	},
+	updateImages: function() {
+		var self = this;
+		Log.info(self.name + ': incrementing the activeItem and refreshing');
+                self.activeItem++;
+		self.updateDom(self.config.animationSpeed);
 	},
 	// override socketNotificationReceived
 	socketNotificationReceived: function(notification, payload) {

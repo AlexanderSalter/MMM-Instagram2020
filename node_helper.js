@@ -44,7 +44,7 @@ module.exports = NodeHelper.create({
 	},
 	getImages() {
 		var self = this;
-		var api_url = 'https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption,timestamp&access_token=' +  self.config.access_token;
+		var api_url = 'https://graph.instagram.com/me/media?fields=id,media_type,media_url,thumbnail_url,caption,timestamp&access_token=' +  self.config.access_token;
 		request({url: api_url, method: 'GET'}, function(error, response, body) {
 			if (!error && response.statusCode == 200) {
 	        	        // get our authentication token from the response
