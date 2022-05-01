@@ -13,14 +13,14 @@ It makes use of the new Facebook Instagram Graph API.
 
 [This Getting Started guide](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) from Facebook will show you how to setup the App for instagram access.
 Just follow steps 1, 2 and 3 to get the variables you need.
-- Valid OAuth Redirect URI would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/auth"
-- Deauthorize Callback URL would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/deauth"
-- Data Deletion Requests URL would be "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/datadelete"
+- Valid OAuth Redirect URI would be "https://[IP Of Your Magic Mirror]:8080/MMM-Instagram2020/auth"
+- Deauthorize Callback URL would be "https://[IP Of Your Magic Mirror]:8080/MMM-Instagram2020/deauth"
+- Data Deletion Requests URL would be "https://[IP Of Your Magic Mirror]:8080/MMM-Instagram2020/datadelete"
 
 From the app settings you will need:
 - client_id > This will be a number generated for you
 - client_secret > This will be a secret generated for you
-- redirect_uri > This should be set to "https://[[IP Of Your Magic Mirror]]:8080/MMM-Instagram2020/auth" (Same as the Valid OAuth Redirect URI)
+- redirect_uri > This should be set to "https://[IP Of Your Magic Mirror]:8080/MMM-Instagram2020/auth" (Same as the Valid OAuth Redirect URI)
   
 ## Installation
 ### Setup Magic Mirror for HTTPS/SSL access.
@@ -61,7 +61,7 @@ httpsCertificate: "/home/pi/MagicMirror/config/ssl/magicmirror.pem",    // HTTPS
 |---|---|
 |`client_id`|Facebook Instagram App ID required for the Facebook Instagram APP. <br><br>**Type:** `string`<br>This value is **REQUIRED**|
 |`client_secret`|Client Secret required for the Facebook Instagram APP.<br><br>**Type:** `string`<br>This value is **REQUIRED**|
-|`redirect_uri`|Valid OAuth Redirect URI required for the Facebook Instagram APP.<BR><BR>This should be set to https://<<IP Of Your Magic Mirror>>:8080/MMM-Instagram2020/auth<br><br>**Type:** `string`<br>This value is **REQUIRED** and neets HTTPS to be active on your Magic Mirror Installation|
+|`redirect_uri`|Valid OAuth Redirect URI required for the Facebook Instagram APP.<BR><BR>This should be set to https://[IP Of Your Magic Mirror]:8080/MMM-Instagram2020/auth<br><br>**Type:** `string`<br>This value is **REQUIRED** and neets HTTPS to be active on your Magic Mirror Installation|
 |`animationSpeed`|How long for the animation to last when moving to the next image.<br><br>**Type:** `integer`|
 |`updateInterval`|How long before refreshing image.<br><br>**Type:** `integer`|
 Example `config.js` entry:
@@ -80,10 +80,9 @@ config: {
 ```
 
 ## Authorisation Process
-1. Ensure that client_id, client_secret and redirect_uri are all configured in config.js and that they match your settings in the Facebook Develloper App.
-2. Ensure the auth_code configuration varibale is set to nothing or ''.
-3. Ensure the `accesstoken.cfg` file does not contain an access token and is completely blank.
-4. Start MagicMirror2 and wait for the authorisation link to show, you will need to either VNC into your MagicMirror2 or access the MagicMirror2 interface remotely 'http://magic_mirror_ip:8080/'
+1. Ensure that the Magic Mirror installation is https/ssl enabled.
+2. Ensure that client_id, client_secret and redirect_uri are all configured in config.js and that they match your settings in the Facebook Develloper App.
+4. Start MagicMirror2 and wait for the authorisation link to show, you will need to either VNC into your MagicMirror2 or access the MagicMirror2 interface remotely 'https://[IP Of Your Magic Mirror]:8080/'
 5. Look for the Message defined below and click the "Here" link
 
 ![Image of Authorisation Process Step 4](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%204.png)
