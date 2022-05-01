@@ -91,11 +91,11 @@ config: {
 + Note: The mouse pointer may be hidden, just right-click to locate your pointer.
 ```
 
-6. Click the Authorise Button and the form will send you to your redirect_uri and give you an auth_code in the url.
+5. Click the Authorise Button and the form will send you to your redirect_uri and give you an auth_code in the url.
 
 ![Image of Authorisation Process Step 5](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%205.png)
 
-7. DONT PANIC! If the url contains a string like ?code=ABCDE...........123SDG0129#_ all is good.
+6. If all is good, youll get a message 
 
 ![Image of Authorisation Process Step 6](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step6.png)
 
