@@ -105,7 +105,8 @@ config: {
 Note: The authorisation process uses a key stored in `accesstoken.cfg` under the module directory.
 This allows access to the account for 60 days.
 There is a mechanism in place to renew the key every time MagicMirror2 is restarted.
-If the access token gets to old, just repeat the authorisation process.
+If the access token gets to old, the interface will return to the Auth link state.
+![Image of Authorisation Process Step 4](https://github.com/AlexanderSalter/MMM-Instagram2020/blob/master/readme_images/Auth%20Step%204.png)
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
