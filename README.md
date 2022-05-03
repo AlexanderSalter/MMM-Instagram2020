@@ -117,7 +117,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [ ] Comment the code more clearly
 - [ ] Add display config options to hide comments and time
 - [ ] video support
-- [ ] investigate possible use of the `?__a=1`
+- [ ] ~~investigate possible use of the `?__a=1`~~ > No longer Supported
 - [ ] investigate scraping public profiles to make the process simpler [ref ](https://dev.to/teroauralinna/how-to-fetch-your-public-photos-from-instagram-without-the-api-3m50)
 
 # Acknowledgments
